@@ -1,24 +1,16 @@
-"use strict";
-function addSomething(x) {
+
+function addSomething(x: number): string{
     return String(x);
-}
-const isPositiveFn = (input => input > 0);
-const isPositiveFn1 = (input => input > 0);
-const isPositiveFn2 = input => input > 0;
-const isPositiveFn3 = (input) => input > 0;
-(function (x, y) {
-    return x + y;
-})(1, 2);
-function sumFromNum(input1, input2) {
+};
+const isPositiveFn: (input: number) => boolean = (input => input > 0);
+const isPositiveFn1 = (input => input > 0) as (input: number) => boolean;
+const isPositiveFn2 = < (input: number) => boolean>(input => input > 0);
+const isPositiveFn3 = (input: number):boolean => input>0;
+
+
+function sumFromNum(input1: number, input2?: number): number{
     return input1 + (input2 ? input2 : 0);
-}
-function sumFromNum1(input1, input2 = 1) {
+};
+function sumFromNum1(input1: number, input2=1): number{
     return input1 + input2;
-}
-declare function addSomething(x: number): string;
-declare const isPositiveFn: (input: number) => boolean;
-declare const isPositiveFn1: (input: number) => boolean;
-declare const isPositiveFn2: (input: number) => boolean;
-declare const isPositiveFn3: (input: number) => boolean;
-declare function sumFromNum(input1: number, input2?: number): number;
-declare function sumFromNum1(input1: number, input2?: number): number;
+};

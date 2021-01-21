@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    /* Visit https://aka.ms/tsconfig.json to read more about this file */
+    "baseUrl": "./src",
+    /* Basic Options */
+    // "incremental": true,                   /* Enable incremental compilation */
+    "target": "ES2019",  
+    "module": "ESNEXT",                       /* Specify module code generation: 'none', 'commonjs', 'amd', 'system', 'umd', 'es2015', 'es2020', or 'ESNext'. */
+    "lib": ["DOM", "ES2015", "ScriptHost", "ES2019.Array"],
+    "strict": true,                           /* Enable all strict type-checking options. */
+    "declaration": true,
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,  /* Disallow inconsistently-cased references to the same file. */
+  },
+  "include":[
+    "src"
+  ]
+}
