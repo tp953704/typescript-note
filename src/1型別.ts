@@ -1,0 +1,14 @@
+let num: number= 1;
+const myName: string= 'Maxwell';
+const isPositive: boolean = true;
+let undef: undefined= undefined;
+let nul2: null= null;
+let voidFn: void;
+let symbol1: symbol= Symbol();
+// let num = 1;
+// const myName = 'Maxwell';
+// const isPositive = true;
+// let undef = undefined;
+// let nul2 = null;
+// let voidFn;
+// let symbol1 = Symbol();
