@@ -81,5 +81,9 @@ namespace IinterfaceAndClass{
     //     // 多了一哥不適IPersonInfo的屬性
     //     cm:18
     // }) error
+
+    // 型別化名VS介面
+    // 型別化名適合單純資料，推論的名稱會在過程中蒸發掉變成型別的結構
+    // 介面規範的是實踐的基本規格，彈性高
 }
 
